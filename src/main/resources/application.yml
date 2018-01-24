@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: marktodo
+    datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/mark
+        username: root
+        password: root
+    mvc:
+        favicon:
+          enabled: false
+    jpa:
+      properties:
+          hibernate:
+              dialect: org.hibernate.dialect.MySQL5Dialect
+server:
+    port: 8080
