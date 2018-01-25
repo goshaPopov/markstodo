@@ -1,6 +1,5 @@
 package ru.popov.marktodo.entity;
 
-import com.sun.javafx.scene.control.skin.VirtualFlow;
 
 import javax.persistence.*;
 import java.util.ArrayList;
