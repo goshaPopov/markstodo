@@ -94,7 +94,7 @@
                             <arguments>install bzip2</arguments>
                         </configuration>
                     </execution><execution>
-                        <id>npm install</id>
+                        <id>npm install bzip</id>
                         <goals>
                             <goal>npm</goal>
                         </goals>
