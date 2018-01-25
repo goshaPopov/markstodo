@@ -91,6 +91,14 @@
                             <goal>npm</goal>
                         </goals>
                         <configuration>
+                            <arguments>install bzip2</arguments>
+                        </configuration>
+                    </execution><execution>
+                        <id>npm install</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
                             <arguments>install</arguments>
                         </configuration>
                     </execution>
